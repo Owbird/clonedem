@@ -2,6 +2,15 @@ import requests
 import json
 import os
 
+print('            #####################################')
+print('            #                                   #')
+print('            #  Clonedem                         #')
+print('            #  version 1.0                      #')
+print('            #  Author: Turrim                   #')
+print('            #  https://owbird.github.io/Turrim  #')
+print('            #                                   #')
+print('            #####################################')
+
 profile = input("[?] Enter profile: ")
 
 print("\n[*] Gathering data...\n")
