@@ -49,13 +49,13 @@ try:
 
         print(f"\n[*] Downloading all {len(data)} repos")
 
-    for url in data:
+        for url in data:
 
-        print(f"[*] Downloading {url['name']}\n")
+        	print(f"[*] Downloading {url['name']}\n")
 
-        os.system(f"git clone {url['clone_url']}")
+        	os.system(f"git clone {url['clone_url']}")
 
-        print(f"[+] Succefully downloaded {url['name']}\n")
+        	print(f"[+] Succefully downloaded {url['name']}\n")
 
     else:
 
